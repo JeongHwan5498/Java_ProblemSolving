@@ -1,5 +1,3 @@
-import org.w3c.dom.Node;
-
 import java.io.*;
 import java.util.*;
 
@@ -29,7 +27,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         StringTokenizer st;
-        System.setIn(new FileInputStream("src/input.txt"));
+        // System.setIn(new FileInputStream("src/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
